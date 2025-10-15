@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="60px" viewBox="0 0 200 60" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>Accord Medical Logo</title>
+    <g id="Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M40,10 C51.045695,10 60,18.954305 60,30 C60,41.045695 51.045695,50 40,50 C28.954305,50 20,41.045695 20,30 C20,18.954305 28.954305,10 40,10 Z" id="Circle" fill="#009AD4"/>
+        <text id="A" font-family="Inter, sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">
+            <tspan x="32" y="40">A</tspan>
+        </text>
+        <text id="ACCORD-MEDICAL" font-family="Inter, sans-serif" font-size="20" font-weight="600" fill="#1A1A1A">
+            <tspan x="70" y="30">ACCORD</tspan>
+            <tspan x="70" y="48" font-size="14" font-weight="500">MEDICAL SUPPLIES</tspan>
+        </text>
+    </g>
+</svg>
