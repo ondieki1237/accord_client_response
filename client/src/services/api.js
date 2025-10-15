@@ -1,7 +1,7 @@
 import axios from "axios"
 
 // Define the API URL to point to localhost:5000
-const API_URL = "http://localhost:5000/api"
+const API_URL = "http://codewithseth.co.ke:5000/api"
 
 // Create axios instance with default configuration
 const api = axios.create({
