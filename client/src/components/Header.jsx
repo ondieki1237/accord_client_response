@@ -16,14 +16,7 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <div className="bg-gradient-to-r from-primary to-primary-dark text-white py-5">
-        <div className="container mx-auto px-4">
-          <h2 className="text-2xl font-semibold text-center">Client Feedback Form</h2>
-          <p className="text-center text-sm mt-1 text-blue-100">
-            We value your feedback and strive to serve you better
-          </p>
-        </div>
-      </div>
+      {/* Secondary header removed as requested */}
     </header>
   )
 }

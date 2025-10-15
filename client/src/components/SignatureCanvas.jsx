@@ -20,12 +20,8 @@ export default function SignatureCanvas({ value, onChange }) {
       setIsEmpty(sigPadRef.current.isEmpty())
       const dataURL = sigPadRef.current.toDataURL()
       
-      // For demo purposes, we'll just capture and truncate the signature data
-      // In a real app, this would be sent to a server
-      const truncatedDataURL = dataURL.substring(0, 50) + "..." + dataURL.substring(dataURL.length - 20)
-      console.log("Signature captured (demo):", truncatedDataURL)
-      
-      onChange(dataURL)
+  // Capture full dataURL and pass to the parent for submission
+  onChange(dataURL)
     }
   }
 
@@ -72,7 +68,6 @@ export default function SignatureCanvas({ value, onChange }) {
           <span className="flex items-center text-sm text-primary">
             <Check className="w-4 h-4 mr-1" />
             Signature captured
-            <span className="ml-2 bg-yellow-100 text-yellow-800 text-xs px-1.5 py-0.5 rounded">demo - not saved</span>
           </span>
         )}
       </div>

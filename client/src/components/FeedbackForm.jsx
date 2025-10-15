@@ -73,7 +73,7 @@ export default function FeedbackForm({ onSuccess }) {
   return (
     <div className="bg-white rounded-2xl shadow-md max-w-3xl mx-auto my-12 overflow-hidden transition-all duration-300">
       {/* Header with Branding */}
-      <div className="bg-indigo-900 text-white text-center py-6">
+      <div className="text-white text-center py-6" style={{ backgroundColor: '#00aeef' }}>
         <h1 className="text-2xl font-semibold">Accord Medical Client Feedback</h1>
         <p className="text-sm mt-1 opacity-80">Your input helps us improve our services</p>
       </div>
