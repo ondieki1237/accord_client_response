@@ -1,7 +1,15 @@
 import axios from "axios"
 
-// Define the API URL to point to localhost:5000
-const API_URL = "https://accord-client-response.onrender.com/api"
+// Toggle between production and local
+const USE_LOCAL = true  // Set to false to use production
+
+// Define the API URL
+const API_URL = USE_LOCAL 
+  ? "http://localhost:5000/api"  // Local development
+  : "https://accord-client-response.onrender.com/api"  // Production
+
+console.log(`🔌 API Mode: ${USE_LOCAL ? 'LOCAL' : 'PRODUCTION'}`)
+console.log(`📡 API URL: ${API_URL}`)
 
 // Create axios instance with default configuration
 const api = axios.create({
