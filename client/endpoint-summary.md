@@ -4,7 +4,7 @@ This document provides an overview of the API endpoints used by the Accord Medic
 
 ## Base URL
 ```
-http://codewithseth.co.ke:5000/api
+https://accord-client-response.onrender.com/api
 ```
 
 ## Authentication Endpoints

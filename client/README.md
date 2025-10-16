@@ -40,7 +40,7 @@ npm install
 
 3. Create a `.env` file in the project root:
 ```
-VITE_API_URL=http://codewithseth.co.ke:5000/api
+VITE_API_URL=https://accord-client-response.onrender.com/api
 ```
 
 4. Start the development server:
